@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: ubuntu-latest
+pool: pckmak
 strategy:
   matrix:
     Python27:
